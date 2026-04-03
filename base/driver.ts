@@ -64,7 +64,7 @@ export class BaseDriver extends Homey.Driver {
               ip: device.address,
             },
           } as IDevice;
-        })
+        }),
       );
     });
 

@@ -10,4 +10,4 @@ module.exports = class LedvanceWifiApp extends Homey.App {
   async onInit() {
     this.log('MyApp has been initialized');
   }
-}
+};

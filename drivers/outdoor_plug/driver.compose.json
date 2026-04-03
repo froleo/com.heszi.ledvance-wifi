@@ -1,0 +1,9 @@
+{
+  "name": {
+    "en": "Outdoor Plug"
+  },
+  "capabilities": [
+    "onoff"
+  ],
+  "$extends": ["base_compose"]
+}

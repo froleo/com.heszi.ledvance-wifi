@@ -37,6 +37,13 @@
   "bugs": {
     "url": "https://github.com/heszegi/com.heszi.ledvance-wifi/issues"
   },
+  "contributing": {
+    "donate": {
+      "paypal": {
+        "username": "heszegi"
+      }
+    }
+  },
   "contributors": {
     "developers": []
   },
@@ -198,6 +205,92 @@
         "dim"
       ],
       "id": "bulb_g9",
+      "settings": [
+        {
+          "id": "mac",
+          "type": "label",
+          "label": {
+            "en": "MAC"
+          },
+          "value": "",
+          "hint": {
+            "en": "The MAC address of the device"
+          }
+        },
+        {
+          "id": "ip",
+          "type": "text",
+          "value": "",
+          "label": {
+            "en": "IP"
+          },
+          "hint": {
+            "en": "The IP address of the device"
+          }
+        },
+        {
+          "id": "id",
+          "type": "text",
+          "value": "",
+          "label": {
+            "en": "Virtual ID"
+          },
+          "hint": {
+            "en": "The virtual ID of the device is available in the Ledvance mobile app under Device Settings → Device Information."
+          }
+        },
+        {
+          "id": "key",
+          "type": "text",
+          "value": "",
+          "label": {
+            "en": "Local key"
+          },
+          "hint": {
+            "en": "The local key of the device is available in the Ledvance mobile app under Device Settings."
+          }
+        }
+      ]
+    },
+    {
+      "class": "light",
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "lan"
+      ],
+      "images": {
+        "small": "/drivers/outdoor_plug/assets/images/small.png",
+        "large": "/drivers/outdoor_plug/assets/images/large.png",
+        "xlarge": "/drivers/outdoor_plug/assets/images/xlarge.png"
+      },
+      "icon": "/drivers/outdoor_plug/assets/icon.svg",
+      "pair": [
+        {
+          "id": "choose_pairing"
+        },
+        {
+          "id": "list_devices",
+          "template": "list_devices",
+          "navigation": {
+            "next": "setup_device"
+          },
+          "options": {
+            "singular": true
+          }
+        },
+        {
+          "id": "setup_device"
+        }
+      ],
+      "name": {
+        "en": "Outdoor Plug"
+      },
+      "capabilities": [
+        "onoff"
+      ],
+      "id": "outdoor_plug",
       "settings": [
         {
           "id": "mac",
@@ -559,6 +652,19 @@
           }
         ]
       ]
+    },
+    "ledvance_outdoor_plug": {
+      "type": "mac",
+      "mac": {
+        "manufacturer": [
+          [
+            80,
+            138,
+            6
+          ]
+        ]
+      },
+      "conditions": []
     },
     "ledvance_panel": {
       "type": "mac",

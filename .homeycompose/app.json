@@ -36,6 +36,13 @@
   "bugs": {
     "url": "https://github.com/heszegi/com.heszi.ledvance-wifi/issues"
   },
+  "contributing": {
+    "donate": {
+      "paypal": {
+        "username": "heszegi"
+      }
+    }
+  },
   "contributors": {
     "developers": []
   }
