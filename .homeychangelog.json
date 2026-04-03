@@ -31,5 +31,8 @@
   },
   "1.0.10": {
     "en": "Add light-temperature capabilitie for Bulb G9 device"
+  },
+  "1.0.11": {
+    "en": "Add Outdoor Plug device (thx for DeKraai93)"
   }
 }
