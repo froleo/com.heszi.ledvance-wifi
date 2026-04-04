@@ -34,5 +34,8 @@
   },
   "1.0.11": {
     "en": "Add Outdoor Plug device (thx for DeKraai93)"
+  },
+  "1.0.12": {
+    "en": "Fix Outdoor Plug class type and discovery"
   }
 }
