@@ -1,0 +1,31 @@
+{
+  "name": {
+    "en": "Bulb RGBW"
+  },
+  "capabilities": [
+    "light_mode",
+    "light_saturation",
+    "light_hue",
+    "dim",
+    "onoff"
+  ],
+  "pair": [
+    {
+      "id": "choose_pairing"
+    },
+    {
+      "id": "list_devices",
+      "template": "list_devices",
+      "navigation": {
+        "next": "setup_device"
+      },
+      "options": {
+        "singular": true
+      }
+    },
+    {
+      "id": "setup_device"
+    }
+  ],
+  "$extends": ["base_compose"]
+}
